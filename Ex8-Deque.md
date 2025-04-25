@@ -48,7 +48,7 @@ int count(int *arr)
 
 ```
 ## Output:
-![alt text](437355684-b8162aa0-9cf6-4d3b-a7d7-11f18be7c6ed.png)
+![437355684-b8162aa0-9cf6-4d3b-a7d7-11f18be7c6ed](https://github.com/user-attachments/assets/905cb0d8-986a-4e11-b51b-3d680be42824)
 
 
 ## Result:
