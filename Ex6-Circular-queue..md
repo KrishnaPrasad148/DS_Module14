@@ -1,14 +1,17 @@
 # Ex6 Dequeue Elements from Circular Queue
-## DATE:
+## DATE: 03/03/2025
 ## AIM:
 To write a C program to delete three elements from the filled circular queue.
 
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+1. Start 
+2. Define a queue with a fixed size SIZE and initialize front and rear pointers. 
+3. Define the deQueue() function to remove and return an element from the front of the queue. 
+4. Check if the queue is empty using isEmpty(); if empty, print an error message. 
+5. If the queue has one element, reset both front and rear to -1. 
+6. If the queue has more than one element, update front to the next index using modulo operation ((front + 1) % SIZE). 
+7. Return the removed element from the front of the queue. 
+8. End  
 
 ## Program:
 ```
@@ -35,7 +38,15 @@ int deQueue() {
   }
   else
   {
-      front = (front+1)%SIZE;
+      if(front==rear) 
+      { 
+          front=-1; 
+          rear=-1; 
+      } 
+      else
+      {
+          front = (front+1)%SIZE;
+      } 
   }
   return element;
 }
@@ -43,7 +54,7 @@ int deQueue() {
 ```
 
 ## Output:
-
+![alt text](437313005-07242337-589a-4ff6-8f53-7c739f8b29fc.png)
 
 
 ## Result:

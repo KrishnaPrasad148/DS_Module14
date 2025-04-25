@@ -1,13 +1,12 @@
 # Ex10 Applications of Queue – FCFS
-## DATE:
+## DATE: 10/03/2025
 ## AIM:
 To write a C function to calculate the turnaround time of each process given their burst time and waiting time in First Come first Serve scheduling algorithm.
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+1. Start with process, burst time, and waiting time arrays. 
+2. Loop through each process from i = 0 to n-1. 
+3. Compute tat[i] = burst_time[i] + wait_time[i]. 
+4. End the algorithm. 
 
 ## Program:
 ```
@@ -32,7 +31,7 @@ int turnaroundtime( int proc[], int n,int burst_time[], int wait_time[], int tat
 ```
 
 ## Output:
-
+![alt text](<Screenshot 2025-04-25 185957.png>)
 
 
 ## Result:

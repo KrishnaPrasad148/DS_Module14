@@ -1,13 +1,17 @@
 # Ex9 Applications of Queue - SJF
-## DATE:
+## DATE: 06/03/2025
 ## AIM:
 To incorporate the code to calculate the Total Waiting Time and Average Waiting Time in Shortest Job First scheduling algorithm.
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+1. Start 
+2. Read the number of processes n and their burst times into the array bt[]. 
+3. Assign process numbers to array p[] (from 1 to n). 
+4. Sort the processes based on burst time using selection sort, updating both bt[] and p[] arrays. 
+5. Calculate the waiting time wt[] for each process by summing burst times of previous processes. 
+6. Calculate the turnaround time tat[] as the sum of burst time and waiting time for each process. 
+7. Compute and print the average waiting time and average turnaround time. 
+8. End
+ 
 
 ## Program:
 ```
@@ -25,15 +29,16 @@ int main()
 {
     int bt[20],p[20],wt[20],tat[20],i,j,n,total=0, temp, pos;
     float avg_wt,avg_tat;
+
     //printf("Enter number of process:");
     scanf("%d",&n);
  
-   // printf("\nEnter Burst Time:\n");
+    // printf("\nEnter Burst Time:\n");
     for(i=0;i<n;i++)
     {
-      //  printf("p%d:",i+1);
+        //  printf("p%d:",i+1);
         scanf("%d",&bt[i]);
-        p[i]=i+1;           //contains process number
+        p[i]=i+1;           
     }
  
     //sorting burst time in ascending order using selection sort
@@ -75,9 +80,9 @@ int main()
     }
  
     avg_tat=(float)total/n;     //average turnaround time
-   // printf("\n");
+    // printf("\n");
     printf("Average Waiting Time=%f\n",avg_wt);
-  //  printf("\n");
+    //  printf("\n");
     printf("Average Turnaround Time=%f\n",avg_tat);
     return 0;
 }
@@ -85,7 +90,7 @@ int main()
 ```
 
 ## Output:
-
+![alt text](437356429-5cecae95-1383-4408-a2be-507b449f0a05.png)
 
 
 ## Result:
