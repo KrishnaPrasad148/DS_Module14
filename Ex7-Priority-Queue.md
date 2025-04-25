@@ -42,7 +42,7 @@ void printArray(int array[], int size) {
 
 ```
 ## Output:
-![alt text](437354798-aa8d3e98-4e70-4048-9f60-faf5ae636aac.png)
+![437354798-aa8d3e98-4e70-4048-9f60-faf5ae636aac](https://github.com/user-attachments/assets/f435b5e3-989d-4900-95ba-bf943148d373)
 
 
 ## Result:
