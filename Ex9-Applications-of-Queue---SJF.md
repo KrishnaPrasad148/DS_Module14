@@ -90,7 +90,7 @@ int main()
 ```
 
 ## Output:
-![alt text](437356429-5cecae95-1383-4408-a2be-507b449f0a05.png)
+![437356429-5cecae95-1383-4408-a2be-507b449f0a05](https://github.com/user-attachments/assets/88bc24c3-cb97-41b2-951c-65505d64b664)
 
 
 ## Result:
