@@ -31,7 +31,7 @@ int turnaroundtime( int proc[], int n,int burst_time[], int wait_time[], int tat
 ```
 
 ## Output:
-![alt text](<Screenshot 2025-04-25 185957.png>)
+![Screenshot 2025-04-25 185957](https://github.com/user-attachments/assets/3941e602-60f8-4f21-9320-bc8083f6f627)
 
 
 ## Result:
